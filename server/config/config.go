@@ -34,4 +34,7 @@ type Server struct {
 
 	// 跨域配置
 	Cors CORS `mapstructure:"cors" json:"cors" yaml:"cors"`
+
+	// Authing 配置
+	Authing Authing `mapstructure:"authing" json:"authing" yaml:"authing"`
 }
